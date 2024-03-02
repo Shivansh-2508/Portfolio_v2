@@ -1,0 +1,15 @@
+{
+	"name": "Shivansh Kukreti",
+	"logo": "",
+	
+	"username": {
+		"github": "shivansh-2508",
+		"medium": ""
+	},
+
+	"portfolio": { 
+		"forkthis": "setting json txt",
+		"repo_html": "https://www.github.com/atlamors/portfolio",
+		"repo_api": "https://api.github.com/repos/atlamors/portfolio"
+	}
+}
