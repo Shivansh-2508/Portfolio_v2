@@ -26,40 +26,41 @@ import about from '../../../styles/sections/index/about.module.scss';
 export default function About() {
 	return (
 		<Section classProp={about.section}>	
-			<Container spacing={['verticalXXXLrg']}>
-				<SectionTitle
-					title="About Me"
-					preTitle="Synopsis"
-					subTitle="With a diverse skill set that includes UX design, UI design, full stack development, operational architecture, systems design, photography, and branding, I am a well-rounded digital professional."
-				/>
-				<section className={about.content}>
-					<div className={about.image}>
-						<img src="/img/samp1.jpg" alt="photo"/>
-						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
-					</div>
-					<div className={about.copy} >
-						<CopyBlock 
-							title="Softskills that pay the bills"
-							containerClass={about.container}
-							iconClass={about.icon}
-							icon={[ 'fat', 'ear-listen' ]}
-							copy="In addition to my design and technical expertise—I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner / managing partner, husband, and father of two. Outside of work, I enjoy staying active through sports such as hockey and snowboarding. I am confident in my ability to bring passion and value to any project."
-						/>
-						<BadgesBlock 
-							title="Reasearch and planning" 
-							containerClass={about.container}
-							list={methods} 
-							fullContainer="fullContainer"
-							block="methods" 
-							icon="fingerprint"
-							copy="One of my favorite aspects of creating is planning the architecture of a project. From Design Systems to Brand Strategy—I enjoy working with the many touch points of user experience."
-							//invertedColor="invertedColor"
-							headerIcon={`${about.icon}`}
-						/>
-					</div>
-				</section>	
-			</Container>
-		</Section>
+    <Container spacing={['verticalXXXLrg']}>
+        <SectionTitle
+            title="About Me"
+            preTitle="Synopsis"
+            subTitle="With a diverse skill set encompassing web development, UX/UI design, and digital marketing, I am a versatile professional passionate about crafting engaging online experiences."
+        />
+        <section className={about.content}>
+            <div className={about.image}>
+                <img src="/img/samp1.jpg" alt="photo"/>
+                {/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
+            </div>
+            <div className={about.copy} >
+                <CopyBlock 
+                    title="Soft Skills & Experience"
+                    containerClass={about.container}
+                    iconClass={about.icon}
+                    icon={[ 'fat', 'ear-listen' ]}
+                    copy="In addition to my technical expertise in web development and design, I bring strong leadership, time management, and multitasking skills, developed through my experience as a freelancer and as a student pursuing a B.Tech in Computer Science. Outside of my academic and professional pursuits, I enjoy staying active through activities like hiking and playing basketball. I am confident in my ability to deliver high-quality work and make a positive impact in any project I undertake."
+                />
+                <BadgesBlock 
+                    title="Passion for Innovation" 
+                    containerClass={about.container}
+                    list={methods} 
+                    fullContainer="fullContainer"
+                    block="methods" 
+                    icon="fingerprint"
+                    copy="One of the most rewarding aspects of my work is the opportunity to plan and execute the architecture of a website or digital project. Whether it's developing user-friendly interfaces or devising effective marketing strategies, I thrive on creating seamless and engaging digital experiences for users."
+                    //invertedColor="invertedColor"
+                    headerIcon={`${about.icon}`}
+                />
+            </div>
+        </section>	
+    </Container>
+</Section>
+
 	)
 }
 
