@@ -1,6 +1,6 @@
 {
 	"intro": {
-		"start": "const Shivansh Kukreti = ( name, passion ) =>",
+		"start": "const Me = ( name, passion ) =>",
 		"end": "Hello, my name is",
 		"speed": 60,
 		"deletionSpeed": 80,
@@ -12,20 +12,25 @@
 
 	"header": {
 		"name": "Shivansh Kukreti.",
-		"usp": "I design and build meaningful experiences."
+		"usp": "I design and build meaningful Websites."
 	},
 
-	"paragraph": "I am a digital polymath — a constantly evolving digital creator driven by a passion for lifelong learning and the desire to leave a lasting impact.",
+	"paragraph": " I am a passionate and aspiring web developer, eager to make a mark in the ever-evolving world of technology.",
 
 	"buttons": {
-		"primary": {
+		"one": {
 			"title": "Contact Me",
-			"url": "",
+			"url": "mailto:shivansh.kukreti.2004@gmail.com",
 			"leaveSite": false
 		},
-		"secondary": {
+		"two": {
 			"title": "LinkedIn",
-			"url": "",
+			"url": "https://www.linkedin.com/in/shivansh2508",
+			"leaveSite": "true"
+		},
+		"three": {
+			"title": "Github",
+			"url": "https://github.com/Shivansh-2508",
 			"leaveSite": "true"
 		}
 	}
