@@ -42,7 +42,7 @@ export default function About() {
                     title="Soft Skills & Experience"
                     containerClass={about.container}
                     iconClass={about.icon}
-                    icon={[ 'fat', 'ear-listen' ]}
+                    icon={[ 'far', 'code' ]}
                     copy="In addition to my technical expertise in web development and design, I bring strong leadership, time management, and multitasking skills, developed through my experience as a freelancer and as a student pursuing a B.Tech in Computer Science. Outside of my academic and professional pursuits, I enjoy staying active through activities like hiking and playing basketball. I am confident in my ability to deliver high-quality work and make a positive impact in any project I undertake."
                 />
                 <BadgesBlock 
@@ -51,7 +51,7 @@ export default function About() {
                     list={methods} 
                     fullContainer="fullContainer"
                     block="methods" 
-                    icon="fingerprint"
+                    icon="rocket-launch"
                     copy="One of the most rewarding aspects of my work is the opportunity to plan and execute the architecture of a website or digital project. Whether it's developing user-friendly interfaces or devising effective marketing strategies, I thrive on creating seamless and engaging digital experiences for users."
                     //invertedColor="invertedColor"
                     headerIcon={`${about.icon}`}
@@ -65,10 +65,10 @@ export default function About() {
 }
 
 const methods 	= [
-	{ key: 'planet-moon', 		name: 'Web Development', 		type: 'fad' },
-	{ key: 'qrcode', 			name: 'UX/UI Design Skills', 	type: 'fad' },
-	{ key: 'window', 			name: 'Multitasking Proficiency', 	type: 'fad' },
-	{ key: 'cubes', 			name: 'Digital Marketing Acumen', 	type: 'far' },
-	{ key: 'layer-plus', 		name: 'Effective Time Management', 	type: 'fad' },
-	{ key: 'solar-system', 		name: 'Leadership Abilities', 		type: 'fad' },
+	{ key: 'globe', 		name: 'Web Development', 		type: 'far' },
+	{ key: 'icons', 			name: 'UX/UI Design Skills', 	type: 'far' },
+	{ key: 'browsers', 			name: 'Multitasking Proficiency', 	type: 'fad' },
+	{ key: 'at', 			name: 'Digital Marketing Acumen', 	type: 'far' },
+	{ key: 'business-time', 		name: 'Effective Time Management', 	type: 'fat' },
+	{ key: 'people-group', 		name: 'Leadership Abilities', 		type: 'far' },
 ]
