@@ -29,7 +29,8 @@ export default function Footer() {
 	}, []);
 	
 	return (
-		<footer className={css.container}>
+		
+		{/** <footer className={css.container}>
 			<Container spacing={['verticalXXLrg', 'bottomLrg']}>
 				<section className={css.sections}>
 					<ul className={css.thanks}>
@@ -86,6 +87,6 @@ export default function Footer() {
 				</section>
 			</Container>
 			<canvas id="gradient-canvas" className={''} data-transition-in ></canvas>
-		</footer>
+						</footer> **/}
 	)
 }
