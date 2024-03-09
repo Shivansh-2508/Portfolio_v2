@@ -21,38 +21,38 @@ export default function GitProjects({ repos, user }) {
 					</span>
 				</section>
 				<div className={css.projects}>
-					{
-					repos.map( ({ name, description, topics, forks_count, html_url, language, watchers, homepage, pushed_at }, index) => {
-						const date = new Date(pushed_at).toDateString()
-						return (
-							<>
-							<article key={index} className={css.project}>
-								<span className={css.header}>
-									<a href={html_url} rel="noreferrer" target="_blank">{name} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
-									<p className={css.homepage}>{homepage}</p>
-								</span>
-								<span className={css.descriptionContainer}>
-									<p className={css.description}>{description}</p>
-								</span>
-								<span className={css.details}>
-									<p><i className={`devicon-${language.toLowerCase()}-plain colored`} /> {language}</p>
-									<p><Icon icon={[ 'fad', 'star' ]} /> {watchers}</p>
-									<p><Icon icon={[ 'fad', 'code-branch' ]} /> {forks_count}</p>
-									<p className={css.pushedAt}>{date}</p>
-								</span>
-								<span className={css.topicsContainer}>
-									{
-									topics.map( (e, index) => {
-										return ( <span key={index} className={css.topics}><i class="devicon-github-plain"></i> {e}</span> )
-									})
-									}
-								</span>
-							</article>
-							</>
-						)
-					})
-					}
-				</div>
+    {
+        repos.map(({ name, description, topics, forks_count, html_url, language, watchers, homepage, pushed_at }, index) => {
+            const date = new Date(pushed_at).toDateString();
+            return (
+                <article key={index} className={css.project}>
+                    <span className={css.header}>
+                        <a href={html_url} rel="noreferrer" target="_blank">{name} <Icon icon={['fad', 'arrow-up-right-from-square']} /></a>
+                        <p className={css.homepage}>{homepage}</p>
+                    </span>
+                    <span className={css.descriptionContainer}>
+                        <p className={css.description}>{description}</p>
+                    </span>
+                    <span className={css.details}>
+                        <p>{language && <i className={`devicon-${language.toLowerCase()}-plain colored`} />} {language}</p>
+                        <p><Icon icon={['fad', 'star']} /> {watchers}</p>
+                        <p><Icon icon={['fad', 'code-branch']} /> {forks_count}</p>
+                        <p className={css.pushedAt}>{date}</p>
+                    </span>
+                    <span className={css.topicsContainer}>
+                        {
+                            topics && Array.isArray(topics) && topics.map((e, index) => (
+                                <span key={index} className={css.topics}><i className="devicon-github-plain"></i> {e}</span>
+                            ))
+                        }
+                    </span>
+                </article>
+            );
+        })
+    }
+</div>
+
+
 				{/*
 				<pre>{ JSON.stringify(user, undefined, 2) }</pre>
 				<pre>{ JSON.stringify(repos, undefined, 2) }</pre>

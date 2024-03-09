@@ -21,7 +21,7 @@ import about from '../../../styles/sections/index/about.module.scss';
  * An overview of yourself.
  * Highlight your top level attributes and disciplines.
  * 
- * @returns {jsx} <About />
+ * @returns {jsx} <About / >
  */
 export default function About() {
 	return (
@@ -65,10 +65,10 @@ export default function About() {
 }
 
 const methods 	= [
-	{ key: 'planet-moon', 		name: 'User Research', 		type: 'fad' },
-	{ key: 'qrcode', 			name: 'Digital Strategy', 	type: 'fad' },
-	{ key: 'window', 			name: 'Design Systems', 	type: 'fad' },
-	{ key: 'cubes', 			name: 'Product Strategy', 	type: 'far' },
-	{ key: 'layer-plus', 		name: 'Brand Strategy', 	type: 'fad' },
-	{ key: 'solar-system', 		name: 'Operations', 		type: 'fad' },
+	{ key: 'planet-moon', 		name: 'Web Development', 		type: 'fad' },
+	{ key: 'qrcode', 			name: 'UX/UI Design Skills', 	type: 'fad' },
+	{ key: 'window', 			name: 'Multitasking Proficiency', 	type: 'fad' },
+	{ key: 'cubes', 			name: 'Digital Marketing Acumen', 	type: 'far' },
+	{ key: 'layer-plus', 		name: 'Effective Time Management', 	type: 'fad' },
+	{ key: 'solar-system', 		name: 'Leadership Abilities', 		type: 'fad' },
 ]
