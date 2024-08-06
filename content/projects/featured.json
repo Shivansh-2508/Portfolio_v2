@@ -1,5 +1,28 @@
 [
 	{
+		"project": "Mern Bookstore",
+		"url": "https://advclasses.com",
+		"repo": "Public",
+		"repolink": "https://github.com/Shivansh-2508/MERN-Bookstore.git",
+		"descriptionTitle": "A Fullstack application",
+		"description": "Built on React.js, this project is a comprehensive online bookstore application. Users can browse, search, and purchase books, while administrators can manage inventory, orders, and user accounts.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "left", "h": "797", "w": "556",  "url": "/img/portfolio-mock_single.png" }
+		],
+		"stack": [
+		
+			{ "key": "react", 		"name": "React", 		"type": "devicon" },
+			{ "key": "mongodb", 		"name": "mongo", 		"type": "devicon" },
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
+			{ "key": "express", 		"name": "Express", 		"type": "devicon" },
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" }
+		]
+	},
+	{
 		"project": "Pinnacle Group Tuitions",
 		"url": "https://pinnaclegrouptuitions.in",
 		"repo": "Public",
