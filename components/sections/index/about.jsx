@@ -30,7 +30,7 @@ export default function About() {
         <SectionTitle
             title="About Me"
             preTitle="Synopsis"
-            subTitle="With a diverse skill set encompassing web development, UX/UI design, and digital marketing, I am a versatile professional passionate about crafting engaging online experiences."
+            subTitle="As a full-stack developer with hands-on experience in real-world deployments, I focus on building scalable, responsive, and user-focused web applications using modern JavaScript frameworks."
         />
         <section className={about.content}>
             <div className={about.image}>
@@ -43,7 +43,7 @@ export default function About() {
                     containerClass={about.container}
                     iconClass={about.icon}
                     icon={[ 'far', 'code' ]}
-                    copy="In addition to my technical expertise in web development and design, I bring strong leadership, time management, and multitasking skills, developed through my experience as a freelancer and as a student pursuing a B.Tech in Computer Science. Outside of my academic and professional pursuits, I enjoy staying active through activities like hiking and playing basketball. I am confident in my ability to deliver high-quality work and make a positive impact in any project I undertake."
+copy="My experience spans client-facing full-stack projects, API integrations, and UI/UX implementations using React, Next.js, Node.js, and Flask. I’ve led product builds from scratch under DDTechnologies, collaborated with peers on live deployments, and delivered custom tools like billing apps and data scrapers. I'm detail-oriented, quick to learn, and committed to writing clean, maintainable code."
                 />
                 <BadgesBlock 
                     title="Passion for Innovation" 
@@ -64,11 +64,11 @@ export default function About() {
 	)
 }
 
-const methods 	= [
-	{ key: 'globe', 		name: 'Web Development', 		type: 'far' },
-	{ key: 'icons', 			name: 'UX/UI Design Skills', 	type: 'far' },
-	{ key: 'browsers', 			name: 'Multitasking Proficiency', 	type: 'fad' },
-	{ key: 'at', 			name: 'Digital Marketing Acumen', 	type: 'far' },
-	{ key: 'business-time', 		name: 'Effective Time Management', 	type: 'fat' },
-	{ key: 'people-group', 		name: 'Leadership Abilities', 		type: 'far' },
-]
+const methods = [
+  { key: 'globe', name: 'Full-Stack Web Development', type: 'far' },
+  { key: 'code', name: 'React & Next.js Expertise', type: 'far' },
+  { key: 'server', name: 'Backend API Integration', type: 'fad' },
+  { key: 'database', name: 'MongoDB & Firebase Experience', type: 'far' },
+  { key: 'terminal', name: 'Python Scripting & Automation', type: 'far' },
+  { key: 'clock', name: 'Project Execution Under Deadlines', type: 'far' }
+];
